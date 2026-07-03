@@ -1,4 +1,4 @@
-package mx.edu.utez.contactos.model.dao;
+/*package mx.edu.utez.contactos.model.dao;
 
 import mx.edu.utez.contactos.model.Contacto;
 import mx.edu.utez.contactos.utils.SQLConnector;
@@ -120,3 +120,4 @@ public class ContactoDao implements Dao<Contacto, Integer>{
         }
     }
 }
+*/
