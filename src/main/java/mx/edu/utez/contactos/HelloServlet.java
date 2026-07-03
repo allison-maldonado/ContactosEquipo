@@ -1,4 +1,4 @@
-package mx.edu.utez.contactos.servlet;
+package mx.edu.utez.contactos;
 
 import java.io.*;
 
