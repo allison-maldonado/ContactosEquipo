@@ -17,7 +17,6 @@ public class ContactoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        request.setAttribute("listaContactos", lista);
         // Apunta a index.jsp tal como lo solicitó el profesor
         request.getRequestDispatcher("index.jsp").forward(request, response);
     }
