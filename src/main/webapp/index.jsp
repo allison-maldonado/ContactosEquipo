@@ -49,7 +49,7 @@
 
                         <div class="mb-3">
                             <label class="form-label">Teléfono alternativo</label>
-                            <input type="tel" class="form-control" name="telefonoAlternativo">
+                            <input type="tel" class="form-control" name="telefonoAlt">
                         </div>
 
                         <div class="mb-3">
@@ -105,17 +105,17 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <c:forEach items="${listaContactos}" var="contacto">
-                                <tr>
-                                    <td><strong>${contacto.id}</strong></td>
-                                    <td>${contacto.nombre}</td>
-                                    <td>${contacto.apellidos}</td>
-                                    <td>${contacto.telefono}</td>
-                                    <td>${contacto.telefonoAlternativo}</td>
-                                    <td>${contacto.correo}</td>
-                                    <td><span class="badge badge-purple">${contacto.redSocial}</span></td>
-                                </tr>
-                            </c:forEach>
+                                <c:forEach items="${listaContactos}" var="contacto">
+                                    <tr>
+                                        <td><strong>${contacto.id}</strong></td>
+                                        <td>${contacto.nombre}</td>
+                                        <td>${contacto.apellido}</td>
+                                        <td>${contacto.telefono}</td>
+                                        <td>${contacto.telefono_alternativo}</td>
+                                        <td>${contacto.correo_electronico}</td>
+                                        <td><span class="badge badge-purple">${contacto.red_social}</span></td>
+                                    </tr>
+                                </c:forEach>
                             </tbody>
                         </table>
                     </div>
