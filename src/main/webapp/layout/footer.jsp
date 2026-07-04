@@ -6,11 +6,19 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+</div>
+</div>
+</div>
+</main>
 
+<footer class="footer mt-auto py-3 bg" style="background: #777277">
+    <div class="container text-center text-white">
+        <span>&copy; Nombre del equipo - Todos los derechos reservados</span>
+    </div>
+</footer>
+
+<script src="assets/js/bootstrap.js" ></script>
 </body>
 </html>
+
+

@@ -28,11 +28,6 @@
                         <input type="hidden" name="action" value="create">
 
                         <div class="mb-3">
-                            <label class="form-label">ID</label>
-                            <input type="text" class="form-control" value="Generado automáticamente" readonly>
-                        </div>
-
-                        <div class="mb-3">
                             <label class="form-label">Nombre</label>
                             <input type="text" class="form-control" name="nombre" required>
                         </div>
@@ -72,7 +67,7 @@
                         </div>
 
                         <div class="d-grid">
-                            <button class="btn btn-purple"><i class="bi bi-save-fill"></i> Guardar contacto</button>
+                            <button type="submit" class="btn btn-purple"><i class="bi bi-save"></i> Guardar contacto</button>
                         </div>
                     </form>
                 </div>
