@@ -94,23 +94,22 @@
                                 <th>Nombre</th>
                                 <th>Apellidos</th>
                                 <th>Teléfono</th>
-                                <th>Alternativo</th>
+                                <th>Telefono Alternativo</th>
                                 <th>Correo</th>
                                 <th>Red Social</th>
                             </tr>
                             </thead>
                             <tbody>
-                                <c:forEach items="${listaContactos}" var="contacto">
-                                    <tr>
-                                        <td><strong>${contacto.id}</strong></td>
-                                        <td>${contacto.nombre}</td>
-                                        <td>${contacto.apellido}</td>
-                                        <td>${contacto.telefono}</td>
-                                        <td>${contacto.telefono_alternativo}</td>
-                                        <td>${contacto.correo_electronico}</td>
-                                        <td><span class="badge badge-purple">${contacto.red_social}</span></td>
-                                    </tr>
-                                </c:forEach>
+                            <c:forEach items="${listaContactos}" var="contacto">
+                                <tr>
+                                    <td><strong>${contacto.id}</strong></td>
+                                    <td>${contacto.nombre}</td>
+                                    <td>${contacto.apellido}</td>
+                                    <td>${contacto.telefono}</td>
+                                    <td>${contacto.telefono_alternativo}</td>
+                                    <td>${contacto.correo_electronico}</td>
+                                    <td>${contacto.red_social}</td> </tr>
+                            </c:forEach>
                             </tbody>
                         </table>
                     </div>

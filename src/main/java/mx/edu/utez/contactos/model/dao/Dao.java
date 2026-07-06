@@ -1,5 +1,4 @@
 package mx.edu.utez.contactos.model.dao;
-
 import java.util.List;
 
 public interface Dao<T, K> {
